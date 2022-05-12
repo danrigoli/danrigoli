@@ -1,6 +1,6 @@
 # 👋 Hi, I’m @danrigoli
 
-## 📫 How to reach me ...
+## 📫 How to reach me
 <ul>
   <li><a href="https://danterigoli.com">Web Page</a></li>
 <!---
