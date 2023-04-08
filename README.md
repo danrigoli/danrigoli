@@ -13,6 +13,9 @@ On top of my work at OneSeven Tech, I am also working on some exciting blog and 
 ## 📫 How to reach me
 <ul>
   <li><a href="https://danterigoli.com">Web Page</a></li>
+   <li><a href="https://www.linkedin.com/in/danterigoli/">LinkedIn</a></li>
+</ul>
+  
 <!---
 danrigoli/danrigoli is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
