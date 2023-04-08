@@ -1,5 +1,5 @@
 # 👋 Hi, I’m @danrigoli
-I am an eager Full-Stack Programmer, currently attending to Universidad de Palermo (UP) for Software Engineer. Proactive and dedicated at every project I work at. I strive toward new challenges.
+I am a Software Engineer and fourth-year university student in Buenos Aires, Argentina. Currently working at OneSeven Tech, where I help build apps for startups. Passionate about tech and trying to make a difference. Always seeking new challenges and opportunities to learn and grow. Check my portfolio to see some of my work!
 ## 📫 How to reach me
 <ul>
   <li><a href="https://danterigoli.com">Web Page</a></li>
