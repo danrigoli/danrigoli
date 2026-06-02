@@ -8,14 +8,13 @@
 <b>Full-stack &amp; AI engineer</b> from Argentina · remote-first.<br/>
 Six years across fintech, streaming, and AI tooling — currently at
 <b>Blockchain.com</b> building onboarding, compliance, and agentic systems.<br/>
-I build platforms, agentic systems, and the occasional ASCII portrait.
+I build platforms, agentic systems, and so much more random stuff.
 </p>
 
 <p>
 <a href="https://danterigoli.com"><img src="https://img.shields.io/badge/Portfolio-danterigoli.com-0a0a0e?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://linkedin.com/in/danterigoli"><img src="https://img.shields.io/badge/LinkedIn-danterigoli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://github.com/danrigoli"><img src="https://img.shields.io/badge/GitHub-danrigoli-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:danterigoli02@gmail.com"><img src="https://img.shields.io/badge/Email-danterigoli02-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 </td>
