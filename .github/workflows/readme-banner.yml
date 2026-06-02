@@ -1,0 +1,48 @@
+name: Rotate README banner
+
+# GitHub markdown is static, so it can't randomize per view. Instead we swap
+# in a random GIF on a schedule (and on demand), which rotates the banner.
+on:
+  schedule:
+    - cron: "0 */8 * * *" # every 8 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-banner
+  cancel-in-progress: true
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pick a random banner
+        run: |
+          gifs=(.github/assets/readme-1.gif .github/assets/readme-2.gif .github/assets/readme-3.gif)
+          pick="${gifs[$RANDOM % ${#gifs[@]}]}"
+          echo "Selected: $pick"
+          python3 - "$pick" <<'PY'
+          import re, sys
+          pick = sys.argv[1]
+          readme = open("README.md", encoding="utf-8").read()
+          img = f'<img src="./{pick}" width="320" alt="Dante Rigoli" />'
+          block = f"<!-- GIF:START -->\n  {img}\n  <!-- GIF:END -->"
+          readme = re.sub(r"<!-- GIF:START -->.*?<!-- GIF:END -->", block, readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(readme)
+          PY
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: rotate README banner [skip ci]"
+            git push
+          else
+            echo "No change — same banner picked."
+          fi
