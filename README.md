@@ -22,7 +22,7 @@ I build platforms, agentic systems, and the occasional ASCII portrait.
 <td valign="top" width="40%" align="center">
 
 <!-- GIF:START -->
-<img src="./.github/assets/readme-1.gif" width="320" alt="Dante Rigoli" />
+<img src="./.github/assets/readme-2.gif" width="320" alt="Dante Rigoli" />
 <!-- GIF:END -->
 
 </td>
