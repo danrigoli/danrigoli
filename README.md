@@ -21,8 +21,8 @@ I build platforms, agentic systems, and so much more random stuff.
 <td valign="top" width="40%" align="center">
 
 <!-- GIF:START -->
-<img src="./.github/assets/readme-2.gif" width="320" alt="Dante Rigoli" />
-<!-- GIF:END -->
+  <img src="./.github/assets/readme-3.gif" width="320" alt="Dante Rigoli" />
+  <!-- GIF:END -->
 
 </td>
 </tr>
